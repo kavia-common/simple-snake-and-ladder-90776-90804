@@ -11,5 +11,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.0",
+    "serve": "^14.2.5"
   }
 }
