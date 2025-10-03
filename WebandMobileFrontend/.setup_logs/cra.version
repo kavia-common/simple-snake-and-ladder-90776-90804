@@ -1,0 +1,28 @@
+create-react-app is deprecated.
+
+You can find a list of up-to-date React frameworks on react.dev
+For more info see:https://react.dev/link/cra
+
+This error message will only be shown once per install.
+node:internal/fs/utils:356
+    throw err;
+    ^
+
+Error: EACCES: permission denied, open '/usr/lib/node_modules/create-react-app/given-deprecation-warning'
+    at Object.openSync (node:fs:596:3)
+    at Object.writeFileSync (node:fs:2322:35)
+    at writeWarningFile (/usr/lib/node_modules/create-react-app/createReactApp.js:69:6)
+    at init (/usr/lib/node_modules/create-react-app/createReactApp.js:88:5)
+    at Object.<anonymous> (/usr/lib/node_modules/create-react-app/index.js:56:1)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+  errno: -13,
+  syscall: 'open',
+  code: 'EACCES',
+  path: '/usr/lib/node_modules/create-react-app/given-deprecation-warning'
+}
+
+Node.js v18.20.8
